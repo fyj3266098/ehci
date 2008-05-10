@@ -1,0 +1,5 @@
+#summary research papers about head tracking
+
+= LED Based Head Tracking =
+
+DeMenthon's [http://citeseer.ist.psu.edu/rd/86119495%2C110936%2C1%2C0.25%2CDownload/http://citeseer.ist.psu.edu/cache/papers/cs/5521/http:zSzzSzwww.cfar.umd.eduzSz%7EdanielzSzdaniel_papersfordownloadzSzPose25Lines.pdf/dementhon95modelbased.pdf paper] about head tracking could be used to track some fiducial marks, although more study should be done about it.
