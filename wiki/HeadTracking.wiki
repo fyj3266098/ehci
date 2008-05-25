@@ -38,7 +38,7 @@ static CvHaarClassifierCascade* cascade = 0;
 //this is an approximation, for FOV = 45 degrees, 640x480 pixels
 double horizontalGradesPerPixel = 53.0/640.0;
 double verticalGradesPerPixel = 40.0/480.0;
-double headWidth = 0.12; //supposing head's width is 20 cm 
+double headWidth = 0.12; //supposing head's width is 12 cm 
 
 
 void detect_and_draw( IplImage* image );
