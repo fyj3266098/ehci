@@ -23,9 +23,9 @@ http://ehci.googlecode.com/svn/wiki/images/head2.jpg
 
 Demo videos are currently hosted at youtube:
 
-[Static Camera http://www.youtube.com/watch?v=agxEG9NRbC0]
+[http://www.youtube.com/watch?v=agxEG9NRbC0 Static Camera]
 
-[Moving Camera http://www.youtube.com/watch?v=sD0OqIdomZc]
+[http://www.youtube.com/watch?v=sD0OqIdomZc Moving Camera]
 
 = Model based 3d tracking =
 Excelent [http://www.nowpublishers.com/getpdf.aspx?product=CGV&doi=0600000001 survey] about Monocular Model-Based 3D Tracking of Rigid Objects, by Vincent Lepetit and Pascal Fua
