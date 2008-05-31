@@ -19,6 +19,10 @@ Focus can be easily achieved through field of view. For instance, if the camera 
 Most updated code can be found here:
 [http://code.google.com/p/ehci/source/browse/trunk/drafts/boxView3d/ boxView3d]
 
+One can easily download this code through the following svn command:
+
+_svn checkout http://ehci.googlecode.com/svn/trunk/drafts/boxView3d boxView3d_
+
 _This code uses some approximations, but is a good starting point_
 
 {{{
