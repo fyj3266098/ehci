@@ -16,6 +16,9 @@ Focus can be easily achieved through field of view. For instance, if the camera 
 
 = 3d distance tracking using head width =
 
+Most updated code can be found here:
+[http://code.google.com/p/ehci/source/browse/trunk/drafts/boxView3d/ boxView3d]
+
 _This code uses some approximations, but is a good starting point_
 
 {{{
