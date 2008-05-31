@@ -13,11 +13,11 @@ _svn checkout http://ehci.googlecode.com/svn/trunk/drafts/boxView3d boxView3d_
 
 Screenshots of the demo applications showing boxes according to the user head point of view.
 
-http://code.google.com/p/ehci/source/browse/wiki/images/head0.png
+http://ehci.googlecode.com/svn/wiki/images/head0.png
 
-[Head1 http://code.google.com/p/ehci/source/browse/wiki/images/head1.png]
+http://ehci.googlecode.com/svn/wiki/images/head1.png
 
-[Head2 http://code.google.com/p/ehci/source/browse/wiki/images/head2.png]
+http://ehci.googlecode.com/svn/wiki/images/head2.png
 
 = Model based 3d tracking =
 Excelent [http://www.nowpublishers.com/getpdf.aspx?product=CGV&doi=0600000001 survey] about Monocular Model-Based 3D Tracking of Rigid Objects, by Vincent Lepetit and Pascal Fua
