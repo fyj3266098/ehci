@@ -1,12 +1,31 @@
 #summary research papers about head tracking
 
+= Source code = 
+
+Most updated code of a demo can be found here:
+[http://code.google.com/p/ehci/source/browse/trunk/drafts/boxView3d/ boxView3d]
+
+One can easily download this code through the following svn command:
+
+_svn checkout http://ehci.googlecode.com/svn/trunk/drafts/boxView3d boxView3d_
+
+= Screenshots = 
+
+Screenshots of the demo applications showing boxes according to the user head point of view.
+
+http://code.google.com/p/ehci/source/browse/wiki/images/head0.png
+
+[Head1 http://code.google.com/p/ehci/source/browse/wiki/images/head1.png]
+
+[Head2 http://code.google.com/p/ehci/source/browse/wiki/images/head2.png]
+
 = Model based 3d tracking =
 Excelent [http://www.nowpublishers.com/getpdf.aspx?product=CGV&doi=0600000001 survey] about Monocular Model-Based 3D Tracking of Rigid Objects, by Vincent Lepetit and Pascal Fua
 
 
 = LED Based Head Tracking =
 
-DeMenthon's [http://citeseer.ist.psu.edu/rd/86119495%2C110936%2C1%2C0.25%2CDownload/http://citeseer.ist.psu.edu/cache/papers/cs/5521/http:zSzzSzwww.cfar.umd.eduzSz%7EdanielzSzdaniel_papersfordownloadzSzPose25Lines.pdf/dementhon95modelbased.pdf paper] about head tracking could be used to track some fiducial marks, although more study should be done about it.
+!DeMenthon's [http://citeseer.ist.psu.edu/rd/86119495%2C110936%2C1%2C0.25%2CDownload/http://citeseer.ist.psu.edu/cache/papers/cs/5521/http:zSzzSzwww.cfar.umd.eduzSz%7EdanielzSzdaniel_papersfordownloadzSzPose25Lines.pdf/dementhon95modelbased.pdf paper] about head tracking could be used to track some fiducial marks, although more study should be done about it.
 
 = Eye distance 3d tracking =
 
@@ -15,13 +34,6 @@ Another simple idea is to capture only the eye distance (or head height, width) 
 Focus can be easily achieved through field of view. For instance, if the camera has a field of view of 45 degrees and the image is 1024 pixels large, we have (1024/2)/focusDistance = tan(45deg/2)
 
 = 3d distance tracking using head width =
-
-Most updated code can be found here:
-[http://code.google.com/p/ehci/source/browse/trunk/drafts/boxView3d/ boxView3d]
-
-One can easily download this code through the following svn command:
-
-_svn checkout http://ehci.googlecode.com/svn/trunk/drafts/boxView3d boxView3d_
 
 _This code uses some approximations, but is a good starting point_
 
@@ -504,6 +516,7 @@ int ImageLoad(char *filename, Image *image) {
 
 // Load Bitmaps And Convert To Textures
 void LoadGLTextures(void) {	
+
     // Load Texture
     Image *image1;
     
@@ -674,6 +687,7 @@ printf("Head x = %lf Head y = %lf\n",normX,normY);
     
     // Left Face
     glNormal3f(-1.0f, 0.0f, 0.0f);                              // left face points left on x.
+
     glTexCoord2f(0.0f, 0.0f); glVertex3f(-1.0f, -1.0f, -1.0f);	// Bottom Left Of The Texture and Quad
     glTexCoord2f(1.0f, 0.0f); glVertex3f(-1.0f, -1.0f,  1.0f);	// Bottom Right Of The Texture and Quad
     glTexCoord2f(1.0f, 1.0f); glVertex3f(-1.0f,  1.0f,  1.0f);	// Top Right Of The Texture and Quad
