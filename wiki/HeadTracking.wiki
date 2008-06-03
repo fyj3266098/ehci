@@ -41,6 +41,12 @@ Another simple idea is to capture only the eye distance (or head height, width) 
 
 Focus can be easily achieved through field of view. For instance, if the camera has a field of view of 45 degrees and the image is 1024 pixels large, we have (1024/2)/focusDistance = tan(45deg/2)
 
+= Viola Jones =
+
+Nice explanation about Viola Jones algorithm:
+
+[http://www.ics.uci.edu/~smyth/courses/cs175/slides12_viola_jones_face_detection.ppt http://www.ics.uci.edu/~smyth/courses/cs175/slides12_viola_jones_face_detection.ppt]
+
 = Future direction = 
 
 I like this [http://www.nvidia.com/object/3d_stereo.html idea] :)
