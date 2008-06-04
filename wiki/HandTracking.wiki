@@ -4,8 +4,8 @@
 
 http://ehci.googlecode.com/svn/wiki/images/viola.jpg
 
-This [http://www.youtube.com/watch?v=o1WNb0g0f9Q video] shows the use of a Viola-Jones HaarCascades detector developed by Juan Wachs (more info here http://www.bgu.ac.il/~juan/index_files/Publications.html).
-This detector is only supposed to detect closed hands, like the http://en.wikipedia.org/wiki/American_Manual_Alphabet A gesture] from American Manual Alphabet  features. I'm running the OpenCV Haarcascades with a scale of 3 and detection time is around 11 ms.
+This [http://www.youtube.com/watch?v=o1WNb0g0f9Q video] shows the use of a Viola-Jones HaarCascades detector developed by Juan Wachs (more info [http://www.bgu.ac.il/~juan/index_files/Publications.html here]).
+This detector is only supposed to detect closed hands, like the [http://en.wikipedia.org/wiki/American_Manual_Alphabet A gesture] from American Manual Alphabet  features. I'm running the OpenCV Haarcascades with a scale of 3 and detection time is around 11 ms.
 
 
 
