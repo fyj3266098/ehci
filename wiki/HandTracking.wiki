@@ -15,10 +15,8 @@ Cascade of Simple Features]
 
 ==Flock of features==
 
-http://ehci.googlecode.com/svn/wiki/images/viola.jpg
+http://ehci.googlecode.com/svn/wiki/images/handvu.jpg
 
-http://www.youtube.com/watch?v=Rmh-mZFxWns
-
-http://www.movesinstitute.org/~kolsch/HandVu/HandVu.html
-
-http://www.movesinstitute.org/~kolsch/handvu/KolschTurk2004Fast2DHandTrackingWithFlocksOfFeatures.pdf
+This other [http://www.youtube.com/watch?v=Rmh-mZFxWns video] shows [http://www.movesinstitute.org/~kolsch/HandVu/HandVu.html HandVu] approach. 
+This algorithm is based on the paper [http://www.movesinstitute.org/~kolsch/handvu/KolschTurk2004Fast2DHandTrackingWithFlocksOfFeatures.pdf Fast 2D Hand Tracking with Flocks of Features].
+This algorithm tracks several sides of the hand, and, if nothing too much similar to the hand is on the way, a good tracking is achieved. Besides that, HandVu is a very mature software.
