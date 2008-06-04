@@ -4,8 +4,13 @@
 
 http://ehci.googlecode.com/svn/wiki/images/viola.jpg
 
-This [http://www.youtube.com/watch?v=o1WNb0g0f9Q video] shows the use of a Viola-Jones HaarCascades detector developed by Juan Wachs (more info [http://www.bgu.ac.il/~juan/index_files/Publications.html here]).
+This [http://www.youtube.com/watch?v=o1WNb0g0f9Q video] shows the use of a Viola-Jones !HaarCascades detector developed by Juan Wachs (more info [http://www.bgu.ac.il/~juan/index_files/Publications.html here]).
 This detector is only supposed to detect closed hands, like the [http://en.wikipedia.org/wiki/American_Manual_Alphabet A gesture] from American Manual Alphabet  features. I'm running the OpenCV Haarcascades with a scale of 3 and detection time is around 11 ms.
+This detector shows robust behaviour when presented with natural backgrounds like wardrobes and walls from my room. It does not seem to work well when the hand is near the face (near HSV maybe?). The training of the classifier must also include images with this condition.
+
+For more information about this algorithm, refer to the great paper [http://www.merl.com/reports/docs/TR2004-043.pdf Viola-Jones]
+
+
 
 
 
