@@ -51,6 +51,8 @@ Nice explanation about Viola Jones algorithm:
 
 I like this [http://www.nvidia.com/object/3d_stereo.html idea] :)
 
+Check out http://abstrakraft.org/cwiid/ , http://www.wiili.org/index.php/CWiid and http://gentoo-wiki.com/HOWTO_Use_Multimedia_Keys
+
 = 3d distance tracking using head width =
 
 _This code uses some approximations, but is a good starting point_
