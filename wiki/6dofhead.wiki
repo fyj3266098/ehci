@@ -1,4 +1,4 @@
-#summary 6 degree of freedom head tracking
+#summary 6 degrees of freedom head tracking
 
 = Introduction =
 
