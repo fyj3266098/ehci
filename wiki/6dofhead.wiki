@@ -8,12 +8,8 @@ Add your content here.
 = Details =
 
 
-Explanation of the raw format
+Posit tutorial:
+http://opencvlibrary.sourceforge.net/Posit
+
+Explanation of the raw format:
 http://local.wasp.uwa.edu.au/~pbourke/dataformats/povraw/
-
-
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
