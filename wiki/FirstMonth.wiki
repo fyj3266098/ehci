@@ -67,3 +67,5 @@ The rescheduled plan could be:
 For the next weeks, I intend to finish the 6dof head tracking so that automatic initialization in any position is achieved, and also decrease jittering through the use of more points. 
 
 Besides finishing the sample program, some work needs to be done in order to separate demo functionalities from ehci library functionalities, so that reuse can be done.
+
+As soon as the 6dof head tracking is finished, 2nd month deliverables will be focused.
