@@ -53,10 +53,10 @@ From the original planning, several deliverables for the 2nd month have been alr
  Motion flow and 3d model wireframe tracking classes. Documentation. Project packaging through Google Summer of Code and Natural User Interface sites.
 
 
-The reschedule plan could be:
+The rescheduled plan could be:
 
 1st Month:
- ~~Hand and Head tracking~~ and hand. ~~3D head tracking class~~. ~~Small OpenGL demos~~.
+ ~~Hand and Head tracking~~. ~~3D head tracking class~~. ~~Small OpenGL demos~~.
 
 2nd Month:
   Body tracking, and gesture recognition classes. Zoom and rotation features. Documentation of classes through tutorials, code documentation and demos
