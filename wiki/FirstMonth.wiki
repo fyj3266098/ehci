@@ -29,5 +29,40 @@ http://danielbaggio.blogspot.com/2008/06/ehci-updates-this-week-ive-been-working
 
 [http://code.google.com/p/ehci/source/browse/trunk/drafts/boxView3d/?r=38 BoxView files]
 
+= Documentation =
+
+[http://code.google.com/p/ehci/wiki/6dofhead  6 Degrees Of Freedom HeadTracking]
+
+[http://code.google.com/p/ehci/wiki/HeadTracking Head Tracking]
+
+[http://code.google.com/p/ehci/wiki/HandTracking Hand Tracking]
+
+
 
 =Achievements and Future planning=
+
+From the original planning, several deliverables for the 2nd month have been already done, while some from the 1st month have been skipped. The reason for this skipping was that working with the head seemed a little bit easier than with hands, this way, more background was acquired with the simpler task, so that the harder one can be addressed with more experience on the algorithms. The original schedule was:
+
+1st Month:
+ ~~Hand tracking~~ and hand gesture recognition classes. Zoom and rotation features. Documentation of classes through tutorials, code documentation and demos.
+
+2nd Month:
+ ~~Head~~ and body tracking facade classes. ~~3D head tracking class~~. Documentation and ~~small OpenGL demos~~.
+
+3rd Month:
+ Motion flow and 3d model wireframe tracking classes. Documentation. Project packaging through Google Summer of Code and Natural User Interface sites.
+
+
+The reschedule plan could be:
+
+1st Month:
+ ~~Hand and Head tracking~~ and hand. ~~3D head tracking class~~. ~~Small OpenGL demos~~.
+
+2nd Month:
+  Body tracking, and gesture recognition classes. Zoom and rotation features. Documentation of classes through tutorials, code documentation and demos
+
+3rd Month:
+ Motion flow and 3d model wireframe tracking classes. Documentation. Project packaging through Google Summer of Code and Natural User Interface sites.
+
+For the next weeks, I intend to finish the 6dof head tracking so that automatic initialization in any position is achieved. Besides that, decrease jittering through the use of more points. 
+Besides finishing the sample program, some work needs to be done in order to separate demo functionalities from ehci library functionalities, so that reuse can be done.
