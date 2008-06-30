@@ -1,0 +1,33 @@
+#summary first month progress
+
+= Blog Posts =
+
+http://danielbaggio.blogspot.com/2008/05/ehci-update.html
+
+http://danielbaggio.blogspot.com/2008/06/ehci-updates-this-week-ive-been-working.html
+
+=Videos=
+
+[http://www.youtube.com/watch?v=sD0OqIdomZc 3d Head tracking without Wiimote - Camera view]
+
+[http://www.youtube.com/watch?v=agxEG9NRbC0 3d Head tracking without Wiimote - Both views]
+
+[http://www.youtube.com/watch?v=o1WNb0g0f9Q Hand gesture letter 'A'] 
+
+[http://www.youtube.com/watch?v=Rmh-mZFxWns Hand tracking using HandVu]
+
+[http://www.youtube.com/watch?v=M8EigZxdk1o 6 dof head tracking]
+
+
+= Source Code=
+
+[http://code.google.com/p/ehci/source/browse/trunk/drafts/6dofhead/6dofhead.cpp 6dofhead.cpp]
+
+[http://code.google.com/p/ehci/source/browse/trunk/drafts/6dofhead/?r=38 6 Degrees of Freedom head tracking files]
+
+[http://code.google.com/p/ehci/source/browse/trunk/drafts/boxView3d/boxView3d.cpp boxView3d.cpp]
+
+[http://code.google.com/p/ehci/source/browse/trunk/drafts/boxView3d/?r=38 BoxView files]
+
+
+=Achievements and Future planning=
