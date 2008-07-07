@@ -21,7 +21,7 @@ The algorithm starts automatically looking for a head in the image, through the 
 
 After finding the head position, a feature tracking algorithm is started. It uses cvFindGoodFeatures to track in the region of interest defined by the head width and height. When these features are discovered, they are mapped back to a head model (I'm currently using a cylindrical model, but I plan to use the excellent head model by Len [http://www.lenwest.org/ Van Der Westhuizen], which is available [http://blenderartists.org/forum/showthread.php?t=103053 here], thanks Len!). 
 
-http://code.google.com/p/ehci/source/browse/wiki/images/blender.jpg
+[http://code.google.com/p/ehci/source/browse/wiki/images/blender.jpg]
 
 _Here, Len's head is being edited in blender_
 
