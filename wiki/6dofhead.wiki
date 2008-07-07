@@ -8,7 +8,7 @@ This implementation tries to follow the excellent work from Luca Vacchetti, Vinc
 
 
 There's a video on youtube 
-[http://ehci.googlecode.com/svn/wiki/images/6dof.jpg http://www.youtube.com/watch?v=M5kqgBO6D9s]
+[http://www.youtube.com/watch?v=M5kqgBO6D9s http://ehci.googlecode.com/svn/wiki/images/6dof.jpg]
 
 
 = Details =
