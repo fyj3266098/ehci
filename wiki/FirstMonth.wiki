@@ -18,6 +18,8 @@ http://danielbaggio.blogspot.com/2008/06/ehci-updates-this-week-ive-been-working
 
 [http://www.youtube.com/watch?v=M8EigZxdk1o 6 dof head tracking]
 
+[http://www.youtube.com/watch?v=M5kqgBO6D9s Updated 6 dof head tracking]
+
 
 = Source Code=
 
