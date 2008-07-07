@@ -1,14 +1,17 @@
 #summary 6 degrees of freedom head tracking
 
+== Source code ==
+
+The code is still under development but a preview is available from the svn http://code.google.com/p/ehci/source/browse/trunk/drafts/6dofhead/6dofhead.cpp
+
 = Introduction =
 
 This part of the project deals with head tracking with 6 degrees of freedom, a problem often referred as finding the pose of an object. Since no light is being emitted, the tracking needs to rely on natural features of the head model. 
 
 This implementation tries to follow the excellent work from Luca Vacchetti, Vincent Lepetit, and Pascal Fua, from the Computer Vision Laboratory of the Swiss Federal Institute of Technology (EPFL). The paper is available [http://cvlab.epfl.ch/~vlepetit/papers/vacchetti_cvpr03.pdf here]
 
-
-There's a video on youtube 
 [http://www.youtube.com/watch?v=M5kqgBO6D9s http://ehci.googlecode.com/svn/wiki/images/6dof.jpg]
+There's a video on [http://www.youtube.com/watch?v=M5kqgBO6D9s youtube] showing current progress. 
 
 
 = Details =
