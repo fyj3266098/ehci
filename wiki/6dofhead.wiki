@@ -26,7 +26,7 @@ http://ehci.googlecode.com/svn/wiki/images/blender.jpg
 
 _Here, Len's head is being edited in blender_
 
-When the head model 3d points are known, as well as its corresponding 2d image points, DeMenthon's [http://www.cfar.umd.edu/~daniel/Site_2/Code.html POSIT algorithm] is used to find the initial pose estimation. 
+When the head model 3d points are known, as well as its corresponding 2d image points, !DeMenthon's [http://www.cfar.umd.edu/~daniel/Site_2/Code.html POSIT algorithm] is used to find the initial pose estimation. 
 
 After that, an optical flow [http://en.wikipedia.org/wiki/Lucas_Kanade_method algorithm] by Lucas-Kanade is used is used to track the points along the frames. These points are mapped back to original 3d points and the pose matrix is updated. 
 
