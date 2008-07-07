@@ -6,6 +6,8 @@ http://danielbaggio.blogspot.com/2008/05/ehci-update.html
 
 http://danielbaggio.blogspot.com/2008/06/ehci-updates-this-week-ive-been-working.html
 
+http://danielbaggio.blogspot.com/2008/07/ehci-upate-6-degrees-of-freedom-head.html
+
 =Videos=
 
 [http://www.youtube.com/watch?v=sD0OqIdomZc 3d Head tracking without Wiimote - Camera view]
