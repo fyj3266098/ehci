@@ -6,16 +6,29 @@ The code is still under development but a preview is available from the svn http
 
 = Introduction =
 
-This part of the project deals with head tracking with 6 degrees of freedom, a problem often referred as finding the pose of an object. Since no light is being emitted, the tracking needs to rely on natural features of the head model. 
+This part of the project deals with head tracking with 6 degrees of freedom, a problem often referred as finding the pose of an object. Since no light is being generated from the head - as in some types of infra-red tracking - it needs to rely on natural features of the head.
 
-This implementation tries to follow the excellent work from Luca Vacchetti, Vincent Lepetit, and Pascal Fua, from the Computer Vision Laboratory of the Swiss Federal Institute of Technology (EPFL). The paper is available [http://cvlab.epfl.ch/~vlepetit/papers/vacchetti_cvpr03.pdf here]
+This implementation tries to follow the excellent work from Luca Vacchetti, Vincent Lepetit, and Pascal Fua, from the Computer Vision Laboratory of the Swiss Federal Institute of Technology (EPFL), "Fusing Online and Offline Information for Stable 3D Tracking in Real-Time". The paper is available [http://cvlab.epfl.ch/~vlepetit/papers/vacchetti_cvpr03.pdf here]
 
 [http://www.youtube.com/watch?v=M5kqgBO6D9s http://ehci.googlecode.com/svn/wiki/images/6dof.jpg]
+
 There's a video on [http://www.youtube.com/watch?v=M5kqgBO6D9s youtube] showing current progress. 
 
 
 = Details =
 
+The algorithm starts automatically looking for a head in the image, through the famous [http://en.wikipedia.org/wiki/Robust_real-time_object_detection Viola Jones] algorithm.
+
+After finding the head position, a feature tracking algorithm is started. It uses cvFindGoodFeatures to track in the region of interest defined by the head width and height. When these features are discovered, they are mapped back to a head model (I'm currently using a cylindrical model, but I plan to use the excellent head model by Len [http://www.lenwest.org/ Van Der Westhuizen], which is available [http://blenderartists.org/forum/showthread.php?t=103053 here], thanks Len!). 
+
+http://code.google.com/p/ehci/source/browse/wiki/images/blender.jpg
+
+_Here, Len's head is being edited in blender_
+
+
+After that, an optical flow [http://en.wikipedia.org/wiki/Lucas_Kanade_method algorithm] by Lucas-Kanade is used is used to track the points along the frames. 
+
+= Links = 
 
 Posit tutorial:
 http://opencvlibrary.sourceforge.net/Posit
