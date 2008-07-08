@@ -37,3 +37,6 @@ http://opencvlibrary.sourceforge.net/Posit
 
 Explanation of the raw format:
 http://local.wasp.uwa.edu.au/~pbourke/dataformats/povraw/
+
+Documentation of gluPerspective (used to determine OpenGL projection matrix)
+http://www.opengl.org/sdk/docs/man/xhtml/gluPerspective.xml
