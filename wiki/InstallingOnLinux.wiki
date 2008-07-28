@@ -37,7 +37,7 @@ No package 'opencv' found
 Consider adjusting the PKG_CONFIG_PATH environment variable if you
 installed software in a non-standard prefix."
 
-This means you don't have opencv 1.1.0 or higher installed in your machine. Refer to the topic InstallingOpenCVfromCVS . You might as well receive the following error:
+This means you don't have opencv 1.1.0 or higher installed in your machine. Refer to the topic InstallingOpencvFromCvs . You might as well receive the following error:
 
 "checking for OPENCV... configure: error: Package requirements (opencv >= 1.1.0) were not met:
 
