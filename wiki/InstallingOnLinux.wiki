@@ -4,13 +4,13 @@
 
 In order to install the library, download the last distribution release of EHCI through the download tab (or this [http://ehci.googlecode.com/files/ehci-0.3.tar.gz link]), go to the directory in which you've copied the ehci-0.3.tar.gz and issue the following commands:
 
-_tar xvfz ehci-0.3.tar.gz
+_tar xvfz ehci-0.3.tar.gz_
 
-cd ehci-0.3             
+_cd ehci-0.3_
 
-./configure             
+_./configure_
 
-make_
+_make_
 
 
 Now, log as super user, go to the ehci-0.3 directory and run:
