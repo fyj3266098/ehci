@@ -4,20 +4,27 @@
 
 In order to install the library, download the last distribution release of EHCI through the download tab (or this [http://ehci.googlecode.com/files/ehci-0.3.tar.gz link]), go to the directory in which you've copied the ehci-0.3.tar.gz and issue the following commands:
 
-  % tar xvfz ehci-0.3.tar.gz
-  % cd ehci-0.3             
-  % ./configure             
-  % make      
-Now, log as super user, go to the ehci-0.3 directory and run              
-  % make install            
+{{{
+tar xvfz ehci-0.3.tar.gz
+cd ehci-0.3             
+./configure             
+make      
+}}}
+
+Now, log as super user, go to the ehci-0.3 directory and run:
+{{{
+make install
+}}}
 
 This is the explanation of the commands:
 
-  % tar xvfz ehci-0.3.tar.gz   # unpack the sources
-  % cd ehci-0.3                # change to the toplevel directory
-  % ./configure                # run the `configure' script
-  % make                       # build EHCI
-  % make install               # install EHCI
+{{{
+tar xvfz ehci-0.3.tar.gz   # unpack the sources
+cd ehci-0.3                # change to the toplevel directory
+./configure                # run the `configure' script
+make                       # build EHCI
+make install               # install EHCI
+}}}
 
 
 As the OPENCV library is required for you to install EHCI, you might get this error while running ./configure:
