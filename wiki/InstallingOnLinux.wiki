@@ -37,7 +37,7 @@ No package 'opencv' found
 Consider adjusting the PKG_CONFIG_PATH environment variable if you
 installed software in a non-standard prefix."
 
-This means you don't have opencv 1.1.0 or higher installed in your machine. Refer to the topic InstallingOpencvFromCvs . You might as well receive the following error:
+This means you don't have opencv 1.1.0 or higher installed in your machine. Refer to the topic InstallingOpencvFromCvs. You might as well receive the following error:
 
 "checking for OPENCV... configure: error: Package requirements (opencv >= 1.1.0) were not met:
 
@@ -51,35 +51,47 @@ and OPENCV_LIBS to avoid the need to call pkg-config.
 See the pkg-config man page for more details."
 
 
-This means you have OpenCV installed, but your version is 1.0.0. This might be the case when you install it from the sourceforge downloadable package, opposed to checking it out from the cvs. In case you've received this error, look for the topic 'Installing OpenCV from CVS' below.
+This means you have OpenCV installed, but your version is 1.0.0. This might be the case when you install it from the sourceforge downloadable package, opposed to checking it out from the cvs. In case you've received this error, look for the topic InstallingOpencvFromCvs.
 
 
-Running samples
----------------
+= Running samples =
+
 
 In case there weren't errors, you should be able to go to the directory /usr/local/share/ehci/samples and run the samples that come with the library. In order to run the 6 degrees of freedom sample do the following:
 
-  % cd /usr/local/share/ehci/samples
-  % ./6dofhead
+{{{
+cd /usr/local/share/ehci/samples
+./6dofhead
+}}}
 
 This should run the 6dofhead demonstration sample (it will track translation and rotation of your head, you should be looking toward your webcam in order for it to start). In case it won't run, you might get the following error message:
 
+{{{
 ./6dofhead: error while loading shared libraries: libehci.so.0: cannot open shared object file: No such file or directory
+}}}
 
 This means that your system cannot load the library because it is not in the default places it is looking for (usually /usr/lib), but you might check that your library, libehci.so is located at /usr/local/lib/libehci.so . The easy fix, is to tell your system about it through the following command:
 
-  % export LD_LIBRARY_PATH=/usr/local/lib
+{{{
+export LD_LIBRARY_PATH=/usr/local/lib
+}}}
 
 And then, try and run the program again through:
 
-  % ./6dofhead
+{{{
+./6dofhead
+}}}
 
 This will most probably work, but the best way to tell your system about this new library is adding it to the /etc/ld.so.conf file. In order to do this, as a super user, edit the file /etc/ld.so.conf and add this line to it:
 
+{{{
   /usr/local/lib/
+}}}
 
 And then run, as super user, run:
   
-  %  /sbin/ldconfig
+{{{
+/sbin/ldconfig
+}}}
 
 This will add the library to the cache and you won't need to alter the environment library LD_LIBRARY_PATH again.
