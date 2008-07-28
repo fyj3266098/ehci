@@ -2,9 +2,6 @@
 
 = Installing OpenCV from CVS =
 
-=Installing OpenCV from CVS=
-
-
 OpenCV library is available from sourceforge repositories, at http://sourceforge.net/projects/opencvlibrary/ . When this install file was written, there was no package from version 1.1 available for download. So the best way to get it, is through a CVS checkout. 
 In order to do so, issue the following commands (you need to have cvs installed in your machine):
 
