@@ -96,3 +96,17 @@ And then run, as super user, run:
 }}}
 
 This will add the library to the cache and you won't need to alter the environment library LD_LIBRARY_PATH again.
+
+=Contributors procedures= 
+
+If you want to contribute with EHCI code, you'll firstly need to checkout files from [http://code.google.com/p/ehci/source/checkout svn], and then, run the following command:
+
+{{{
+autoreconf --install
+}}}
+
+It will generate Makefiles so that it can be configured and installed. In order to create a new distribution tarball, the following command should be issued:
+
+{{{
+make dist
+}}}
