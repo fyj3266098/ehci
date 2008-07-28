@@ -4,13 +4,12 @@
 
 In order to install the library, download the last distribution release of EHCI through the download tab (or this [http://ehci.googlecode.com/files/ehci-0.3.tar.gz link]), go to the directory in which you've copied the ehci-0.3.tar.gz and issue the following commands:
 
-_tar xvfz ehci-0.3.tar.gz_
-
-_cd ehci-0.3_
-
-_./configure_
-
-_make_
+{{{
+tar xvfz ehci-0.3.tar.gz
+cd ehci-0.3
+./configure
+make
+}}}
 
 
 Now, log as super user, go to the ehci-0.3 directory and run:
@@ -38,7 +37,7 @@ No package 'opencv' found
 Consider adjusting the PKG_CONFIG_PATH environment variable if you
 installed software in a non-standard prefix."
 
-This means you don't have opencv 1.1.0 or higher installed in your machine. Refer to the topic 'Installing OpenCV from CVS', below. You might as well receive the following error:
+This means you don't have opencv 1.1.0 or higher installed in your machine. Refer to the topic InstallingOpenCVfromCVS. You might as well receive the following error:
 
 "checking for OPENCV... configure: error: Package requirements (opencv >= 1.1.0) were not met:
 
@@ -86,64 +85,3 @@ And then run, as super user, run:
 This will add the library to the cache and you won't need to alter the environment library LD_LIBRARY_PATH again.
 
 
-
-Installing OpenCV from CVS
---------------------------
-
-OpenCV library is available from sourceforge repositories, at http://sourceforge.net/projects/opencvlibrary/ . When this install file was written, there was no package from version 1.1 available for download. So the best way to get it, is through a CVS checkout. 
-In order to do so, issue the following commands (you need to have cvs installed in your machine):
-
-  %  cvs -d:pserver:anonymous@opencvlibrary.cvs.sourceforge.net:/cvsroot/opencvlibrary login
-
-When asked for a password, simply press enter. And then:
- 
-  %  cvs -z3 -d:pserver:anonymous@opencvlibrary.cvs.sourceforge.net:/cvsroot/opencvlibrary co -P opencv
-
-This will checkout files from the very last development version. In order to build and install opencv, you should look for the file opencv/INSTALL, but, in case you have the required libraries:
-
-   + GTK+ 2.x or higher including headers
-
-   + pkgconfig
-
-   + libpng, zlib, libjpeg, libtiff, libjasper with development files.
-
-   + Python 2.3, 2.4 or 2.5 with headers installed (developer package)
-
-   + libavcodec, etc. from ffmpeg 0.4.9-pre1 or later + headers.
-     Earlier versions do not work with OpenCV because of different API.
-     libavcodec is LGPL software, so to use it with non-GPL software (such as OpenCV)
-     you need to build and use a _shared_ library libavcodec.so.*:
-        get ffmpeg from ffmpeg.sourceforge.net
-        ./configure --enable-shared
-        make
-        make install
-        you will have got: /usr/local/lib/libavcodec.so.*
-                           /usr/local/lib/libavformat.so.*
-                          (/usr/local/lib/libavutil.so.* for newer versions)
-                           /usr/local/include/ffmpeg/*.h
-
-  You can build it with a simple:
-
-  %  ./configure
-  %  make
-As super user:
-  %  make install  
-  %  /sbin/ldconfig
-
-And then, watch out for this installation note: 
-"default installation path is /usr/local/lib and /usr/local/include/opencv,
- so you need to add /usr/local/lib to /etc/ld.so.conf (and run ldconfig after)
- or add it to LD_LIBRARY_PATH environment variable"
-
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
