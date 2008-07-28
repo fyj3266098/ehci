@@ -2,7 +2,7 @@
 
 == Source code ==
 
-The code is still under development but a preview is available from the svn http://code.google.com/p/ehci/source/browse/trunk/drafts/6dofhead/6dofhead.cpp
+The code is still under development but a preview is available from the svn http://code.google.com/p/ehci/source/browse/trunk/samples/6dofhead.cpp
 
 = Introduction =
 
@@ -40,3 +40,5 @@ http://local.wasp.uwa.edu.au/~pbourke/dataformats/povraw/
 
 Documentation of gluPerspective (used to determine OpenGL projection matrix)
 http://www.opengl.org/sdk/docs/man/xhtml/gluPerspective.xml
+
+Another good idea would be to use something like CMU's [http://www.cs.cmu.edu/~face/Papers/IJIST_headmotionrecovery.pdf paper]
