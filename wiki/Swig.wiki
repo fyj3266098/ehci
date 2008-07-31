@@ -1,0 +1,9 @@
+#summary this page deals with details on how to call C++ functions from Python using SWIG. This documentation is under development
+
+= Links =
+
+[http://www.swig.org/tutorial.html Swig tutorial]
+
+[http://projects.scipy.org/scipy/numpy/browser/trunk/numpy/doc/swig/doc/numpy_swig.html?format=raw Using typemaps]
+
+
