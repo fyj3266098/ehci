@@ -50,3 +50,31 @@ This project is functional, but it could receive some enhancements.
 The first thing to take in consideration is the RANSAC algorithm, currently, outliers are kept and this increases the error in long sequences, which makes reinitialization required.
 
 Another enhancement is to exchange the sine head model with the actual head model and use the facet id concepts.
+
+== Some personal notes (in Portuguese) ==  
+
+RANSAC com keyframe:
+
+Dado o frame inicial (keyframe) e o atual, faz-se o Lucas-Kanade. Mapeia-se os pontos M originais com os m do frame atual. 
+Utiliza-se o RANSAC:
+	- sorteia-se um conjunto de pontos m e faz-se o POSIT. Utiliza-se o keyframe inicial (como textura sobre o head model ou sobre o cilindro) e projeta-se com a matriz obtida pelo POSIT. Faz-se a medida de erro (não sei qual é melhor/sugerida, pois podem ser duas: distância (x,y) entre os pontos projetados pela matriz e os pontos m, ou a distância dos pixels de um quadrado reprojetado... talvez a primeira). Ao longo do Posit, pode-se pegar mais pontos, considerados inliers, caso eles dêem o fit. Chega-se a um RT para estes pontos. 
+	- sorteia-se novos pontos, repetindo o processo. Mantém-se o melhor resultado.
+
+Combinando-se com o online: faz-se ramsac com keyframe, depois, faz-se RANSAC com os pontos identificados entre o último frame e o atual. Caso eles não se ajustem ao atual são removidos e caso contrário entram para cooperar com o melhor RANSAC. 
+
+Mais detalhes sobre o RANSAC no multiple view geometry.
+
+Algoritmo do CMU:
+
+1- Extrair template da cara a partir de uma inicialização como no Viola-Jones frontal.
+
+2- Encontrar uma região que minimize o erro entre o ?quadrado? inicial e a nova região. Para calcular o erro, utiliza-se um peso para os pixels, que é função da densidade (pixels que estão na normal da câmera têm peso maior) e o gradiente (pixels com gradiente alto ou próximo têm peso maior). Além disso, pixels com diferenção muito grande(prováveis outliers) são amortecidos por uma exponencial.
+
+3- Encontrada a região, calcula-se a matriz de rotação/translação. 
+
+... por que o método é incremental?! ... como varrer a nova tela?...
+Na verdade 
+
+
+
+O template tem sempre o mesmo tamanho. Lembre-se que ele é da figura 3d criada.
