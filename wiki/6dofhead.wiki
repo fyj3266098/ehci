@@ -42,3 +42,11 @@ Documentation of gluPerspective (used to determine OpenGL projection matrix)
 http://www.opengl.org/sdk/docs/man/xhtml/gluPerspective.xml
 
 Another good idea would be to use something like CMU's [http://www.cs.cmu.edu/~face/Papers/IJIST_headmotionrecovery.pdf paper]
+
+= TODO =
+
+This project is functional, but it could receive some enhancements.
+
+The first thing to take in consideration is the RANSAC algorithm, currently, outliers are kept and this increases the error in long sequences, which makes reinitialization required.
+
+Another enhancement is to exchange the sine head model with the actual head model and use the facet id concepts.
