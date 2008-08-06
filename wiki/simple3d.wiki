@@ -1,5 +1,5 @@
 #summary This demonstration shows how to use getGlPositMatrix to get 3d position of the head
-
+{{{
 #include "ehci.h"
 #include <stdio.h>
 
@@ -50,3 +50,4 @@ int main(){
 		printf(" (Press Ctrl+C to finish)\n");
 	}
 }
+}}}
