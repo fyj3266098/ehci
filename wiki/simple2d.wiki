@@ -1,10 +1,10 @@
-#summary One-sentence summary of this page.
+#summary This demonstration shows how to use the simple getHeadBounds function
 
 {{{
 #include "ehci.h"
 #include <stdio.h>
 
-// This demonstration shows how to use the simple getHeadBounds function
+
 
 int main(){
 	
