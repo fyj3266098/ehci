@@ -1,19 +1,19 @@
 #summary Instructions on how to install EHCI library and samples on Linux
 #labels Featured
 
-=Installation instructions for EHCI 0.3=
+=Installation instructions for EHCI 0.x=
 
-In order to install the library, download the last distribution release of EHCI through the download tab (or this [http://ehci.googlecode.com/files/ehci-0.3.tar.gz link]), go to the directory in which you've copied the ehci-0.3.tar.gz and issue the following commands:
+In order to install the library, download the last distribution release of EHCI through the download tab (or this [http://ehci.googlecode.com/files/ehci-0.x.tar.gz link]), go to the directory in which you've copied the ehci-0.x.tar.gz and issue the following commands:
 
 {{{
-tar xvfz ehci-0.3.tar.gz
-cd ehci-0.3
+tar xvfz ehci-0.x.tar.gz
+cd ehci-0.x
 ./configure
 make
 }}}
 
 
-Now, log as super user, go to the ehci-0.3 directory and run:
+Now, log as super user, go to the ehci-0.x directory and run:
 {{{
 make install
 }}}
@@ -21,8 +21,8 @@ make install
 This is the explanation of the commands:
 
 {{{
-tar xvfz ehci-0.3.tar.gz   # unpack the sources
-cd ehci-0.3                # change to the toplevel directory
+tar xvfz ehci-0.x.tar.gz   # unpack the sources
+cd ehci-0.x                # change to the toplevel directory
 ./configure                # run the `configure' script
 make                       # build EHCI
 make install               # install EHCI
