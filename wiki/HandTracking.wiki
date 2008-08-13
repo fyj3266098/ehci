@@ -1,5 +1,13 @@
 #summary handTracking research papers and developed code
 
+= EHCI 6 degrees of freedom hand tracker =
+
+http://ehci.googlecode.com/svn/wiki/images/handvu.jpg
+
+For a video showing the algorithm, check:
+
+http://www.youtube.com/watch?v=JhPDEviPZXI
+
 = Comparing algorithms =
 
 ==Viola-Jones==
