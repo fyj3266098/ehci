@@ -6,6 +6,8 @@ http://ehci.googlecode.com/svn/wiki/images/handTracking.jpg
 
 For a video showing the algorithm, check:
 
+http://www.youtube.com/watch?v=BEMEeCDJ-3I
+
 http://www.youtube.com/watch?v=JhPDEviPZXI
 
 = Comparing algorithms =
