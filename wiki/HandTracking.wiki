@@ -2,7 +2,7 @@
 
 = EHCI 6 degrees of freedom hand tracker =
 
-http://ehci.googlecode.com/svn/wiki/images/handvu.jpg
+http://ehci.googlecode.com/svn/wiki/images/handTracking.jpg
 
 For a video showing the algorithm, check:
 
