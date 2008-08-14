@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/baggio/ehciInstall
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ehci
+
+Name: EHCI
+Description: Enhanced Human Computer Interface library
+Requires: opencv
+Version: 0.4
+Libs: -L${libdir} -lehci
+Cflags: -I${includedir}
