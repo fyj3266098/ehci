@@ -6,6 +6,17 @@ According to [http://docs.python.org/inst/standard-install.html python install i
 
 In order to make the right coupling between the library and python, the interface file, ehci.i should be properly modified.
 
+Compiling dynamic library on Linux
+{{{
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
+swig -c++ -python ehci.i
+g++ -c ehci_wrap.c ehci.cpp -I /usr/include/python2.5/ `pkg-config opencv --cflags
+g++ -shared ehci.o ehci_wrap.o -L /usr/local/lib/ -lGL -lglut -lcv -lhighgui -lcvaux  -lml -lcxcore -o _ehci.so
+python
+import ehci
+
+}}}
+
 = Links =
 
 [http://www.swig.org/tutorial.html Swig tutorial
