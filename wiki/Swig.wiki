@@ -19,6 +19,8 @@ import ehci
 
 = Links =
 
-[http://www.swig.org/tutorial.html Swig tutorial
+[http://www.swig.org/tutorial.html Swig tutorial]
+
+[http://www.geocities.com/foetsch/python/swig_linux.htm Swig Autoconf]
 
 [http://projects.scipy.org/scipy/numpy/browser/trunk/numpy/doc/swig/doc/numpy_swig.html?format=raw Using typemaps]
