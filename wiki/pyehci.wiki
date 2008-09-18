@@ -1,0 +1,24 @@
+#summary simple hello world programs for python using EHCI python bindings
+
+= Introduction =
+
+This sample shows how to obtain head bounds after library initialization.
+
+{{{
+import ehci
+
+ehci.ehciInit()
+
+while(1):
+	ehci.ehciLoop(1,0)
+	x,y,width,height = ehci.getHeadBounds()
+	print "Coord (",x,",",y,") width ",width,"height ",height
+}}}
+
+Save the above code in a file called simple.py and run it through
+
+{{{
+python simple.py
+}}}
+
+
