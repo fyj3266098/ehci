@@ -1,5 +1,7 @@
 #summary this page deals with details on how to call C++ functions from Python using SWIG. This documentation is under development
 
+*Python bindings have been successfully implemented check [[InstallingOnLinux]] for more information*
+
 Python bindings work through shared objects that are compiled with help from SWIG. These libraries implement some init function. They are named with the {{{_}}} prefix. This way, ehci library is imported from some {{{_ehci.so}}} dynamic library. 
 
 According to [http://docs.python.org/inst/standard-install.html python install instructions] the {{{_ehci.so}}} files should go to some directory like /usr/local/lib/python2.5/site-packages or to the same directory in which the user is.
