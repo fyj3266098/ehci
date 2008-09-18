@@ -13,6 +13,17 @@ cd ehci-0.x
 make
 }}}
 
+*if you want to build python bindings do the following instead*
+
+_Python bindings are only available from EHCI 0.5_
+
+{{{
+tar xvfz ehci-0.x.tar.gz
+cd ehci-0.x
+./configure --enable-pyehci --prefix=/usr
+make
+}}}
+
 
 Now, log as super user, go to the ehci-0.x directory and run:
 {{{
