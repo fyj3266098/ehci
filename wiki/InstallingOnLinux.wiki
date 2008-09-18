@@ -15,7 +15,7 @@ make
 
 *if you want to build python bindings do the following instead*
 
-_Python bindings are only available from EHCI 0.5_
+_Python bindings are only available from EHCI 0.5 on_
 
 {{{
 tar xvfz ehci-0.x.tar.gz
