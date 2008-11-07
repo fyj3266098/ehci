@@ -4,9 +4,9 @@
 // This demonstration shows how to use the simple getHeadBounds function
 
 int main(){
-	
+
 	int upperX,upperY,headWidth,headHeight;
-	
+
 	//this function creates a window to see debug information
 	//about capturing image and face detection
 	while(1){

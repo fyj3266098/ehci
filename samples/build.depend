@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1225892651 source:h:\_coding\ehci\samples\simple3d.cpp
+	"ehci.h"
+	<stdio.h>
+
+1225892660 h:\_coding\ehci\lib\ehci.h
+	"cv.h"
+	"highgui.h"
+
+1223205950 f:\opencv\__include\cv.h
+	<chdl.h>
+	"cxcore.h"
+	"cvtypes.h"
+	"cv.hpp"
+	"cvcompat.h"
+
+1223381342 f:\opencv\__include\cxcore.h
+	"ipl.h"
+	"ipl/ipl.h"
+	"cxtypes.h"
+	"cxerror.h"
+	"cvver.h"
+	"cxcore.hpp"
+
+1224254940 f:\opencv\__include\cxtypes.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<mathimf.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+
+1211304102 f:\opencv\__include\cxerror.h
+
+1223208742 f:\opencv\__include\cvver.h
+
+1223028266 f:\opencv\__include\cxcore.hpp
+
+1220418480 f:\opencv\__include\cvtypes.h
+	<assert.h>
+	<stdlib.h>
+
+1222793046 f:\opencv\__include\cv.hpp
+
+1217961640 f:\opencv\__include\cvcompat.h
+	<string.h>
+
+1223212030 f:\opencv\__include\highgui.h
+	"cxcore.h"
+	<windows.h>
+	<chdl.h>
+
+1225892660 source:h:\_coding\ehci\lib\ehci.cpp
+	"ehci.h"
+	<stdio.h>
+	<vector>
+
+1226070446 source:h:\_coding\ehci\samples\boxview3d.cpp
+	"ehci.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<float.h>
+	<limits.h>
+	<time.h>
+	<ctype.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
+1226070184 source:h:\_coding\ehci\samples\simple2d.cpp
+	"ehci.h"
+	<stdio.h>
+
+1226070699 source:h:\_coding\ehci\samples\6dofhead.cpp
+	"cv.h"
+	"highgui.h"
+	"ehci.h"
+	<stdio.h>
+	<ctype.h>
+	<vector>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glext.h>
+	<GL/freeglut.h>
+
