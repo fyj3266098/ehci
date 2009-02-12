@@ -2,6 +2,8 @@
 
 = Combining online and offline information =
 
+The great problem right now is getting rid of error accumulation, which seems to be possible using the keyframe approach.
+
 Well, reading the paper "Fusing Online and Offline Information for Stable 3D Tracking in Real-Time", Vacchetti, Lepetit, Fua, the following procedure is used to combine information from keyframe and previous tracked frame:
 
 "In our approach we therefore attempt to combine the
