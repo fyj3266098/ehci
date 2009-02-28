@@ -1,4 +1,5 @@
 #summary some computer engineering diagrams
+#labels Featured,Phase-Design
 
 = EHCI Main Loop Activity Diagram =
 
