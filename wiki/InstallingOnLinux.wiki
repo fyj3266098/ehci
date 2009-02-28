@@ -24,7 +24,8 @@ cd ehci-0.x
 make
 }}}
 
-_Notice to run python demos, the 6dof.py, you might need to do this export firstly
+_Notice to run python demos, the 6dof.py, you might need to do this export firstly_
+
 export PYTHONPATH=/usr/local/lib/python2.5/site-packages/
 
 
