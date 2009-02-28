@@ -1,4 +1,4 @@
-#summary These are http://code.google.com/u/vinjn.z/ instructions to compile on windows
+#summary These are [http://code.google.com/u/vinjn.z/ vinjn.z] instructions to compile on windows
 #labels Featured
 
 = Compiling on VisualStudio =
