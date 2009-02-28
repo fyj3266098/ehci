@@ -20,9 +20,13 @@ _Python bindings are only available from EHCI 0.5 on_
 {{{
 tar xvfz ehci-0.x.tar.gz
 cd ehci-0.x
-./configure --enable-pyehci --prefix=/usr
+./configure --enable-pyehci
 make
 }}}
+
+_Notice to run python demos, the 6dof.py, you might need to do this export firstly
+export PYTHONPATH=/usr/local/lib/python2.5/site-packages/
+
 
 
 Now, log as super user, go to the ehci-0.x directory and run:
