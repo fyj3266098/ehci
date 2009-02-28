@@ -24,11 +24,6 @@ cd ehci-0.x
 make
 }}}
 
-_Notice to run python demos, the 6dof.py, you might need to do this export firstly_
-
-export PYTHONPATH=/usr/local/lib/python2.5/site-packages/
-
-
 
 Now, log as super user, go to the ehci-0.x directory and run:
 {{{
@@ -113,6 +108,11 @@ And then run, as super user, run:
 }}}
 
 This will add the library to the cache and you won't need to alter the environment library LD_LIBRARY_PATH again.
+
+
+_Notice to run python demos, the 6dof.py, you might need to do this export firstly_
+
+export PYTHONPATH=/usr/local/lib/python2.5/site-packages/
 
 =Contributors procedures= 
 
