@@ -1,5 +1,9 @@
 #summary simple hello world programs for python using EHCI python bindings
 
+_Observation: one might need to add this in case python does not recognize where ehci.py is_
+
+export PYTHONPATH=/usr/local/lib/python2.5/site-packages/
+
 = Introduction =
 
 This sample shows how to obtain head bounds after library initialization.
