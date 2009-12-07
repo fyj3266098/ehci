@@ -10,6 +10,7 @@ ehci-0.5\lib\ehci.cpp
 ehci-0.5\samples\boxView3d.cpp (other samples also work, but this one is cool!)
 
 also remeber to setup the OpenCV environment
+{{{
 
 #ifdef _DEBUG
 	#pragma comment(lib,"cvd.lib")
@@ -22,5 +23,6 @@ also remeber to setup the OpenCV environment
 	#pragma comment(lib,"cxcore.lib")
 	#pragma comment(lib,"highgui.lib")
 #endif
+}}}
 
 GoodLuck!
