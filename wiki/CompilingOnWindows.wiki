@@ -14,10 +14,7 @@ Updated for Ehci-0.7
  # CMake hasn't found your directories for OpenCV and GLUT. For OpenCV, just browse to it, in case you have it installed. Else, go to sourceforge and grab it, install, and then point to it... it's usually at "C:/OpenCV2.1"
  # For GLUT, on windows, you will need to point to Nate Robins binaries (google for Nate Robins glut), http://www.xmission.com/~nate/glut.html . Download and extract the bin version. And then, point GLUT_INCLUDE_DIR to Downloads/glut-3.7.6-bin/glut-3.7.6-bin and GLUT_LIBRARY to Downloads/glut-3.7.6-bin/glut-3.7.6-bin/glut32.lib
  # Check the "Build_opengl_samples" for some fun
- # Hit configure again... you'll see some warnings and then something like:
-"Looking for GLUT
-Looking for GLUT - found : C:/Documents and Settings/Administrator/My Documents/Downloads/glut-3.7.6-bin/glut-3.7.6-bin
-Configuring done"
+ # Hit configure again... you'll see some warnings and then something like: "Looking for GLUT Looking for GLUT - found : C:/Documents and Settings/Administrator/My Documents/Downloads/glut-3.7.6-bin/glut-3.7.6-bin Configuring done"
  # Well done, hit "Configure" again, and then "Generate". You should see: "Generating done"
  # Congratulations, now you have all the solution files (in case you are with Visual Studio) so you can open then and change them as you wish. Go to "\ehci-build\samples" and open the boxView3d.vcproj, for instance. Click "Build->Build Solution" and Visual Studio should generate the executables on "ehci-build\samples\Debug". You should just go there and double click boxView3d.exe, for instance. And then, you might get something like: "This application has failed to start because cxcore210d.dll was not found". It means your opencv dlls are not on the path... a fast way to find them is copying all dll files from "C:\OpenCV2.1\bin" to your ehci-build\samples\Debug" folder.
  # Double click them again and then... oops, glut32.dll might also be missing. Just copy it there as well (or send to your system32). Remember that it comes from Nate Robins glut binaries, there's a file at "glut-3.7.6-bin\glut-3.7.6-bin\glut32.dll". 
