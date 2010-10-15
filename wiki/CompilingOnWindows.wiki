@@ -5,10 +5,10 @@
 
 Updated for Ehci-0.7
 
-# Download and install CMake: http://www.cmake.org/
+ # Download and install CMake: http://www.cmake.org/
 
-# Open the cmake-gui
-# On the "Where is the source code:" point to the place where you have downloaded and extracted ehci-0.7 source (find it here http://ehci.googlecode.com/files/ehci-0.7-src.zip in the downloads section, I have just updated)
+ # Open the cmake-gui
+ # On the "Where is the source code:" point to the place where you have downloaded and extracted ehci-0.7 source (find it here http://ehci.googlecode.com/files/ehci-0.7-src.zip in the downloads section, I have just updated)
 4- On the "Where to build the binaries:" choose your preferred place to generate solution files
 5- Click "Configure" and choose your installed compilers, and then Finish
 6- Chances are you'll get an error in configuration process. It's ok, let's fix it
